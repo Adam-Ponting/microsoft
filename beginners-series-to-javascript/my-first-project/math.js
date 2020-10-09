@@ -1,4 +1,5 @@
-let num1 = 90;
+let num1 = '150';
+let flo1 = '1.50';
 
 console.log('-- Basic Math --');
 console.log(num1 + 25);
@@ -25,3 +26,4 @@ console.log(+(+flo).toFixed(2));
 console.log(parseFloat(flo));
 console.log('---');
 console.log(parseFloat(flo).toFixed(flo.split('.')[1].length));
+console.log(parseInt(05));
