@@ -1,10 +1,27 @@
-let str1 = 'JavaScript';
-let str2 = 'fun';
+const people = ['Aaron', 'Mel', 'John'];
+const one = 1;
+const str = 'Hello World!';
+const b = true;
+const person = {
+    first: 'Adam',
+    last: 'Ponting',
+};
+function hello(person) {
+    console.log('Hello ' + person.first);
+}
 
-// console.log(`I am writing code in ${str1}`);
-// console.log(`Formatting in ${str1} is fun`);
-// console.log(`1 + 1 is ${Boolean(0111)}`);
-// console.log(new Number(1) instanceof Number);
-// console.log(typeof 1);
-console.log(0 == '');
-console.log(0 === '');
+console.log('--- typeof ---');
+console.log(typeof people);
+console.log(typeof one);
+console.log(typeof str);
+console.log(typeof b);
+console.log(typeof person);
+console.log(typeof hello);
+
+console.log('--- instanceof ---');
+console.log(people instanceof Array);
+console.log(one instanceof Number);
+console.log(str instanceof String);
+console.log(b instanceof Boolean);
+console.log(person instanceof Object);
+console.log(hello instanceof Function);
