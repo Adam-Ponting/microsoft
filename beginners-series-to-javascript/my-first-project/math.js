@@ -18,3 +18,10 @@ console.log(Math.PI);
 console.log(Math.sqrt(num1));
 
 console.log(0.01 + 0.02);
+
+let flo = '1.20000';
+console.log(parseInt('0xF'));
+console.log(+(+flo).toFixed(2));
+console.log(parseFloat(flo));
+console.log('---');
+console.log(parseFloat(flo).toFixed(flo.split('.')[1].length));
