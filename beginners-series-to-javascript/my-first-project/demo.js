@@ -1,14 +1,4 @@
-var hello = 'Hello';
-console.log(hello);
-
-hello = 'Hello World';
-
-console.log(hello);
-if (true) {
-    let world = 'Hello World';
-    console.log(world);
-}
-
-const name = 'Adam';
-console.log(name);
-console.log(typeof name, name);
+let num1 = 1;
+let num2 = '2';
+console.log(num1 + num2);
+console.log(num1 + 1);
