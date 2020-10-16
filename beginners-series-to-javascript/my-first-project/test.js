@@ -1,1 +1,1 @@
-console.log('local/');
+console.log('origin/');
